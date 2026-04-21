@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Marcus from '../components/Marcus.jsx'
 
 export default function Home(){
