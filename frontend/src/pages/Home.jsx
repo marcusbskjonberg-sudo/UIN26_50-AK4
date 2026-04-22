@@ -23,7 +23,9 @@ export default function Home(){
         </header>
         
         <main>
-            <Marcus/>
+            <section id='profile-section'>
+                <Marcus/>
+            </section>
             <section id='arbeidskrav-section'>
                 <h2>Arbeidskrav</h2>
                 {arbeidskrav?.map((ak) => 
@@ -33,6 +35,8 @@ export default function Home(){
                     </article>)}
             </section>
         </main>
+
+        <footer><p>UIN26_50*</p></footer>
 
         </>)
 }
