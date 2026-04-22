@@ -9,6 +9,25 @@ article{
   gap: 0.5rem;
 }
 
+#arbeidskrav-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+    h2{
+      width: 100%;
+      padding-top: 1rem;
+    }
+}
+
+.arbeidskrav-article{
+  display: flex;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 1rem 0 1rem;
+}
+
 main{
   display: flex;
   flex-direction: column;
