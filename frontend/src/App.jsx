@@ -1,12 +1,12 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home.jsx'
 
 function App() {
 
   return (
     <Routes>
-      <Route index element={<h1>Tittel</h1>} />
-      <Route path='/test' element={<h1>Route test</h1>} />
+      <Route index element={<Home/>} />
     </Routes>
       
   )
